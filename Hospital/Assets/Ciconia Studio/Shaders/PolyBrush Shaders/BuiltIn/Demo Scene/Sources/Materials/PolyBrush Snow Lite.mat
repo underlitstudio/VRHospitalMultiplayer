@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PolyBrush Snow Lite
+  m_Shader: {fileID: 4800000, guid: c44f2f0bbc3ef4e4a8e25edad981ba1a, type: 3}
+  m_ShaderKeywords: _DETAILWAVE_ON _DUPLICATETEXTUREATLASNORMAL_ON _L1CONSTRAINBYPAINTEDMASK_ON
+    _L1USEHEIGHTMAPDEPTH1_ON _L2CONSTRAINBYPAINTEDMASK_ON _L2USEHEIGHTMAPDEPTH1_ON
+    _L3CONSTRAINBYPAINTEDMASK_ON _L3USEHEIGHTMAPDEPTH1_ON _MAINWAVE_ON _SPARKLESOURCE1_EMISSIVESPARKLES
+    _SPARKLESOURCE3_SMOOTHNESSSPARKLES _SPARKLESOURCE_EMISSIVESPARKLES _USEEMISSIONFROMMAINPROPERTIES2_ON
+    _VISUALIZESPARKLE_NONE _WETBASECOLOR_BASELAYER
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseColorL2:
+        m_Texture: {fileID: 2800000, guid: f412161c0f3afa147911ed61b4050e6b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 975091fd01255324da00cdc05598ac59, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: a4818f55b22c0894981f4006a2c10a4c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMapL2:
+        m_Texture: {fileID: 2800000, guid: 6d4a1dfc0d393f14a91feb800de672e7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 975091fd01255324da00cdc05598ac59, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMapMAHS:
+        m_Texture: {fileID: 2800000, guid: 9ae8e514eaaf3f54bb21e9b3812ba10b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMapMAHSL2:
+        m_Texture: {fileID: 2800000, guid: 9aec54f5bcfc7cc41b98319365c81ddd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SparkleMask:
+        m_Texture: {fileID: 2800000, guid: fc7cffc75d5499f47bdfaaaea634daa8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AlphaCutoff: 0.5
+    - _AmountSparkle: 1
+    - _AoIntensity: 2
+    - _AoIntensityL2: 0.2
+    - _AoMask: 0
+    - _BlendingModeCrystals: 0
+    - _Brightness: 1
+    - _BrightnessL2: 1.2
+    - _BumpScale: 0.3
+    - _BumpScaleL2: 0.6
+    - _ContrastDotMask: 7
+    - _ContrastSparkles: 3.5
+    - _CrystalsIntensity: 7
+    - _Desaturatecrystals: 0.5
+    - _DistanceMax: 20
+    - _DistanceMin: 1
+    - _EmissionIntensity: 1
+    - _EmissionIntensityL2: 1
+    - _EnableTessellation: 0
+    - _Falltest: 0.55
+    - _Glossiness: 0.42
+    - _GlossinessL2: 0
+    - _IntensityDotMask: 1
+    - _L0Displacement: 12.85
+    - _L0HeightmapSpread: 0.35
+    - _L0Heightmapcontrast: -0.94
+    - _L0VisualizeHeightmap1: 0
+    - _L1VisualizeHeightmap1: 0
+    - _L2BlendAmount: 0.2
+    - _L2BlendContrast: 3.5
+    - _L2BlendOpacity: 1
+    - _L2ConstrainbyPaintedMask: 1
+    - _L2Displacement: 0.025
+    - _L2HeightmapSpread: 917.5
+    - _L2Heightmapcontrast: -0.9
+    - _L2UseHeightmapDepth1: 1
+    - _Metallic: 0
+    - _MetallicL2: 0
+    - _Parallax: 0
+    - _ParallaxL2: 0
+    - _Saturation: 0
+    - _SaturationL2: 0
+    - _ShadowMask: 0
+    - _SparklePower: 100
+    - _SparkleSource3: 1
+    - _SpreadDotMask: 0.55
+    - _TessMax: 1
+    - _TessMin: 0
+    - _TessValue: 8
+    - _Tessellation: 8
+    - _TilingCrystals: 4
+    - _TilingDotMask: 5
+    - _TilingInstance: 0.5
+    - _UseEmissionFromMainPropertiesL2: 0
+    - _VisualizeSparkle: 0
+    - __dirty: 1
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorL2: {r: 0.9575472, g: 1, b: 0.9987269, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
+    - _GlobalXYTilingXYZWOffsetXY: {r: 1, g: 1, b: 0, a: 0}
+    - _GlobalXYTilingXYZWOffsetXYSnow: {r: 1, g: 1, b: 0, a: 0}

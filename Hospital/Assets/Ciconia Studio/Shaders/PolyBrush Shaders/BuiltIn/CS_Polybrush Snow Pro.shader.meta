@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 7ca0e81a6434e5d4fb9d5cd22969cd7d
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _SparkleMask: {fileID: 2800000, guid: fc7cffc75d5499f47bdfaaaea634daa8, type: 3}
+  nonModifiableTextures: []
+  userData: '{"shaderPath":"Polybrush/Standard Texture Blend Bump","attributes":[{"isBaseTexture":false,"channel":4,"index":3,"range":{"x":0.0,"y":1.0},"propertyTarget":"_WetTex","mask":0},{"isBaseTexture":false,"channel":4,"index":0,"range":{"x":0.0,"y":1.0},"propertyTarget":"_MainTex","mask":0},{"isBaseTexture":false,"channel":4,"index":2,"range":{"x":0.0,"y":1.0},"propertyTarget":"_BaseColorL2","mask":0}]}'
+  assetBundleName: 
+  assetBundleVariant: 

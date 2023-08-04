@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 9db3d2a1677aa2942a056672d9c1c9ed
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _BaseMap: {instanceID: 0}
+  - _BumpMap: {instanceID: 0}
+  - _MetallicGlossMapMAHS: {instanceID: 0}
+  - _BaseColorL1: {instanceID: 0}
+  - _BumpMapL1: {instanceID: 0}
+  - _MetallicGlossMapMAHSL1: {instanceID: 0}
+  - _BaseColorL2: {instanceID: 0}
+  - _BumpMapL2: {instanceID: 0}
+  - _MetallicGlossMapMAHSL2: {instanceID: 0}
+  - _WetTex: {instanceID: 0}
+  - _Cubemap: {fileID: 8900000, guid: 4e60f774e06d9d543b93d7afd53ec04a, type: 3}
+  - _texcoord: {instanceID: 0}
+  nonModifiableTextures: []
+  userData: '{"shaderPath":"Polybrush/Standard Texture Blend Bump","attributes":[{"isBaseTexture":false,"channel":4,"index":0,"range":{"x":0.0,"y":1.0},"propertyTarget":"_MainTex","mask":0},{"isBaseTexture":false,"channel":4,"index":1,"range":{"x":0.0,"y":1.0},"propertyTarget":"_BaseColorL1","mask":0},{"isBaseTexture":false,"channel":4,"index":2,"range":{"x":0.0,"y":1.0},"propertyTarget":"_BaseColorL2","mask":0},{"isBaseTexture":false,"channel":4,"index":3,"range":{"x":0.0,"y":1.0},"propertyTarget":"_WetTex","mask":0}]}'
+  assetBundleName: 
+  assetBundleVariant: 

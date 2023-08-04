@@ -1,0 +1,258 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PolyBrush Snow Basic
+  m_Shader: {fileID: 4800000, guid: 8ecee26f2dd464544a1b2094d00f3453, type: 3}
+  m_ShaderKeywords: _DETAILWAVE_ON _DUPLICATETEXTUREATLASNORMAL_ON _L1CONSTRAINBYPAINTEDMASK_ON
+    _L1USEHEIGHTMAPDEPTH1_ON _L2CONSTRAINBYPAINTEDMASK_ON _L2USEHEIGHTMAPDEPTH1_ON
+    _L3CONSTRAINBYPAINTEDMASK_ON _L3USEHEIGHTMAPDEPTH1_ON _MAINWAVE_ON _SPARKLESOURCE1_EMISSIVESPARKLES
+    _SPARKLESOURCE3_EMISSIVESPARKLES _SPARKLESOURCE_EMISSIVESPARKLES _USEEMISSIONFROMMAINPROPERTIES2_ON
+    _VISUALIZESPARKLE_NONE _WETBASECOLOR_BASELAYER
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseColorL1:
+        m_Texture: {fileID: 2800000, guid: 37c8047933419a846b602f953c2f5dfa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseColorL2:
+        m_Texture: {fileID: 2800000, guid: f412161c0f3afa147911ed61b4050e6b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 56a49f617c6513141a369d9da47dd037, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: cdd3b61c4d7c9734ebd0946aed7b73da, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMapL1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMapL2:
+        m_Texture: {fileID: 2800000, guid: 6d4a1dfc0d393f14a91feb800de672e7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cubemap:
+        m_Texture: {fileID: 8900000, guid: de78f930088fc194290da7400c89bfb5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 2800000, guid: 938aa984c4c938543a401c2aab173312, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GradientTex:
+        m_Texture: {fileID: 2800000, guid: e89949843abf7004e84edac7b109710b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 56a49f617c6513141a369d9da47dd037, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMapMAHS:
+        m_Texture: {fileID: 2800000, guid: 5cd92237dcdbdef4a9e34fc414797bb9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMapMAHSL1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMapMAHSL2:
+        m_Texture: {fileID: 2800000, guid: 9aec54f5bcfc7cc41b98319365c81ddd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PuddleMap:
+        m_Texture: {fileID: 2800000, guid: 74628682a23b3884488091ab815fcc3a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SparkleMask:
+        m_Texture: {fileID: 2800000, guid: 341bccc9cfea0b449a87809b4fdd36b7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureAtlasNormal:
+        m_Texture: {fileID: 2800000, guid: 54116e2799e93be48aec3d2392cdd467, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WetTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AlphaCutoff: 0.5
+    - _AmountSparkle: 1
+    - _AoIntensity: 1
+    - _AoIntensityL1: 0
+    - _AoIntensityL2: 0
+    - _AoMask: 0
+    - _AoWet: 0
+    - _BlendingModeCrystals: 0
+    - _BlurReflection: 0.5
+    - _Brightness: 1
+    - _BrightnessL1: 1
+    - _BrightnessL2: 1
+    - _BumpScale: 1
+    - _BumpScaleL1: 0.3
+    - _BumpScaleL2: 0.5
+    - _ContrastDotMask: 7.52
+    - _ContrastSparkles: 3.5
+    - _CrystalsIntensity: 7
+    - _Cutoff: 0.5
+    - _Desaturatecrystals: 0.25
+    - _DetailBrightness: 1
+    - _DetailNormalMapScale: 1
+    - _DetailSaturation: 0
+    - _DetailWave: 1
+    - _DistanceMax: 20
+    - _DistanceMin: 1
+    - _Distortion: 0.3
+    - _DstBlend: 0
+    - _DuplicateTextureAtlasNormal: 1
+    - _EmissionIntensity: 1
+    - _EmissionIntensityL1: 1
+    - _EmissionIntensityL2: 1
+    - _EnableTessellation: 0
+    - _FBDetailsNormal: 45
+    - _FlipBTilingNormal: 1
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossinessL1: 0.5
+    - _GlossinessL2: 0
+    - _GlossyReflections: 1
+    - _Intensity: 0
+    - _IntensityDotMask: 10
+    - _IntensityScaleNormal1: 0.4
+    - _IntensityScaleNormal2: 0.3
+    - _L0Displacement: 0
+    - _L0HeightmapSpread: 0.5
+    - _L0Heightmapcontrast: 1
+    - _L0VisualizeHeightmap: 0
+    - _L1BlendAmount: 0.66
+    - _L1BlendContrast: 1
+    - _L1BlendOpacity: 1
+    - _L1ConstrainbyPaintedMask: 1
+    - _L1Displacement: 0
+    - _L1Displacement1: 0
+    - _L1HeightmapSpread: 0.5
+    - _L1Heightmapcontrast: 1
+    - _L1UseHeightmapDepth1: 1
+    - _L1VisualizeHeightmap: 0
+    - _L2BlendAmount: 0.2
+    - _L2BlendContrast: 3.5
+    - _L2BlendOpacity: 1
+    - _L2ConstrainbyPaintedMask: 1
+    - _L2Displacement: 0
+    - _L2HeightmapSpread: 0.5
+    - _L2Heightmapcontrast: 1
+    - _L2UseHeightmapDepth1: 1
+    - _L2VisualizeHeightmap: 0
+    - _L3BlendAmount: 1
+    - _L3BlendContrast: 3.5
+    - _L3BlendOpacity: 1
+    - _L3ConstrainbyPaintedMask: 1
+    - _L3UseHeightmapDepth1: 1
+    - _L3VisualizeHeightmap1: 0
+    - _MainWave: 1
+    - _Metallic: 0
+    - _MetallicL1: 0
+    - _MetallicL2: 0
+    - _Metalness: 0.2
+    - _Mode: 0
+    - _NormalWaveIntensity1: 0.5
+    - _NormalWaveIntensity2: 0.3
+    - _OcclusionStrength: 1
+    - _Parallax: 0
+    - _ParallaxL1: 0
+    - _ParallaxL2: 0.01
+    - _ReflectionIntensity: 0.2
+    - _RotationAngle1: 0
+    - _RotationAngle2: 90
+    - _Saturation: 0
+    - _SaturationL1: 0
+    - _SaturationL2: 0
+    - _ScaleFBDetailsNormal: 1
+    - _ShadowMask: 0
+    - _Size: 0.5
+    - _SmoothnessTextureChannel: 0
+    - _SmoothnessWet: 1
+    - _SparklePower: 10
+    - _SparkleSource: 2
+    - _SparkleSource1: 2
+    - _SparkleSource3: 2
+    - _SpecularHighlights: 1
+    - _SplashSpeed: 0.1
+    - _SpreadDotMask: 0.708
+    - _SrcBlend: 1
+    - _Tessellation: 8
+    - _Tiling: 100
+    - _TilingCrystals: 4.53
+    - _TilingDotMask: 5
+    - _TilingInstance: 0.5
+    - _TilingWave1: 0.05
+    - _TilingWave2: 0.05
+    - _TranslationSpeed1: 0.2
+    - _TranslationSpeed2: 0.2
+    - _UVSec: 0
+    - _UseEmissionFromMainProperties: 0
+    - _UseEmissionFromMainProperties2: 1
+    - _UseEmissionFromMainPropertiesL1: 0
+    - _UseEmissionFromMainPropertiesL2: 0
+    - _VisualizeSparkle: 0
+    - _WetBaseColor: 2
+    - _ZWrite: 1
+    - __dirty: 0
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorCubemap1: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorL1: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorL2: {r: 0.9575472, g: 1, b: 0.99868566, a: 1}
+    - _ColorWet: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _EmissionColor: {r: 1, g: 0, b: 0, a: 1}
+    - _GlobalXYTilingXYZWOffsetXY: {r: 1, g: 1, b: 0, a: 0}
+    - _GlobalXYTilingXYZWOffsetXYL1: {r: 1, g: 1, b: 0, a: 0}
+    - _GlobalXYTilingXYZWOffsetXYL2: {r: 1, g: 1, b: 0, a: 0}
+    - _GlobalXYTilingXYZWOffsetXYSnow: {r: 1, g: 1, b: 0, a: 0}
+    - _OffsetFBDetailsNormal: {r: 1.5, g: 1.5, b: 0, a: 0}
+    - _XColumnsYRowsZSpeedWStrartFrameNormal: {r: 8, g: 8, b: 0.25, a: 0}

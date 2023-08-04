@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hospital_Wall 1
+  m_Shader: {fileID: 4800000, guid: a31047415093ea440899bbf39ed66429, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _L1CONSTRAINBYPAINTEDMASK_ON
+  - _L1USEHEIGHTMAPDEPTH1_ON
+  - _L2CONSTRAINBYPAINTEDMASK_ON
+  - _L2USEHEIGHTMAPDEPTH1_ON
+  - _L3CONSTRAINBYPAINTEDMASK_ON
+  - _L3USEHEIGHTMAPDEPTH1_ON
+  - _WETBASECOLOR_BASELAYER
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseColorL1:
+        m_Texture: {fileID: 2800000, guid: 3b022eece9f573c4b9bdc0dd659754f3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseColorL2:
+        m_Texture: {fileID: 2800000, guid: f648e3f14357b984f8037de0f0886208, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: df949095c8d82764699d815531f16464, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: a2a6f044e09335b4ab672c86fbe7d51e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMapL1:
+        m_Texture: {fileID: 2800000, guid: 2a93115aa7c03064c9dc8d09549f5d43, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMapL2:
+        m_Texture: {fileID: 2800000, guid: 01f0f948c172d6648ab0dcd4110fa50c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMapMAHS:
+        m_Texture: {fileID: 2800000, guid: 78253dfa5ac49074196153942f1dd464, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMapMAHSL1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMapMAHSL2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WetTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaCutoff: 0.5
+    - _AoIntensity: 0
+    - _AoIntensityL1: 0
+    - _AoIntensityL2: 0
+    - _AoWet: 0
+    - _Brightness: 8
+    - _BrightnessL1: 1
+    - _BrightnessL2: 1
+    - _BumpScale: 0.96
+    - _BumpScaleL1: 0.78
+    - _BumpScaleL2: 0.3
+    - _Glossiness: 0
+    - _GlossinessL1: 0
+    - _GlossinessL2: 0.04
+    - _L1BlendAmount: 1
+    - _L1BlendContrast: 3.5
+    - _L1BlendOpacity: 1
+    - _L1ConstrainbyPaintedMask: 1
+    - _L1UseHeightmapDepth1: 1
+    - _L2BlendAmount: 1
+    - _L2BlendContrast: 3.5
+    - _L2BlendOpacity: 1
+    - _L2ConstrainbyPaintedMask: 1
+    - _L2UseHeightmapDepth1: 1
+    - _L3BlendAmount: 1
+    - _L3BlendContrast: 3.5
+    - _L3BlendOpacity: 1
+    - _L3ConstrainbyPaintedMask: 1
+    - _L3UseHeightmapDepth1: 1
+    - _Metallic: 0
+    - _MetallicL1: 0
+    - _MetallicL2: 0
+    - _Metalness: 0.056
+    - _Parallax: -0.001
+    - _ParallaxL1: 0
+    - _ParallaxL2: 0
+    - _Saturation: 0
+    - _SaturationL1: 0
+    - _SaturationL2: 0
+    - _SmoothnessWet: 0.324
+    - _WetBaseColor: 2
+    m_Colors:
+    - _BaseColor: {r: 0.990566, g: 0.9871134, b: 0.97654855, a: 1}
+    - _ColorL1: {r: 0.8301887, g: 0.73971, b: 0.6696333, a: 1}
+    - _ColorL2: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorWet: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _GlobalXYTilingXYZWOffsetXY: {r: 1.69, g: 3.12, b: 1.32, a: 0}
+    - _GlobalXYTilingXYZWOffsetXYL1: {r: 5, g: 5, b: 0, a: 0}
+    - _GlobalXYTilingXYZWOffsetXYL2: {r: 4, g: 4, b: 0, a: 0}
+  m_BuildTextureStacks: []
