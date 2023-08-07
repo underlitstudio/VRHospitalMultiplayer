@@ -8,11 +8,13 @@ public class NPCInsteractable : MonoBehaviour
     [SerializeField] private string interactText;
     [SerializeField] private string SpeechNPC;
     [SerializeField] private string InteractionSpeech;
+    [SerializeField] private string EmergencySpeech;
     private Animator animator;
     private NavMeshAgent agent;
     private GameObject player;
     public GameObject corePlayer;
     public Quaternion initialPlace;
+    
     private void Awake()
     {
         animator = GetComponent<Animator>();
@@ -20,6 +22,23 @@ public class NPCInsteractable : MonoBehaviour
         corePlayer = FindAnyObjectByType<CharacterMovement>().gameObject;
         initialPlace = gameObject.transform.rotation;
 
+    }
+    private void Update()
+    {
+        if(CharacterMovement.EmergencyTrigger != 0)
+        {
+            
+            animator.SetTrigger("Emergency");
+        }
+        if (!gameObject.GetComponent<EmergencyFollow>())
+        {
+            return;
+        }
+
+        //if (Choices.emergencyEscape != 0)
+        //{
+        //    gameObject.GetComponent<EmergencyFollow>().enabled = true;
+        //}
     }
     public void Interact(Transform interactorTransform)
     {

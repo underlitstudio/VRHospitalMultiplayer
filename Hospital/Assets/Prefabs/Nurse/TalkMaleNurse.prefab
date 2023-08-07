@@ -2075,7 +2075,7 @@ GameObject:
   - component: {fileID: 1605812393236254370}
   m_Layer: 0
   m_Name: TalkMaleNurse
-  m_TagString: Untagged
+  m_TagString: Npc
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2163,7 +2163,9 @@ MonoBehaviour:
   interactText: Talk to Male Nurse
   SpeechNPC: As a nurse, my purpose is to heal with compassion and care, making a
     positive difference in every life I touch
-  player: {x: 0, y: 0, z: 0}
+  InteractionSpeech: 
+  corePlayer: {fileID: 0}
+  initialPlace: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &8507602118044692056
 GameObject:
   m_ObjectHideFlags: 0

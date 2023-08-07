@@ -13,13 +13,16 @@ public class CharacterMovement : MonoBehaviour
     public float range = 3f;
     public AudioClip FireAlarm;
     private AudioSource AudioSource;
-
+    //private GameObject[] Npcs;
+    public static int EmergencyTrigger = 0 ;
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
         animator = GetComponent<Animator>();
         AudioSource = GetComponent<AudioSource>();
+        //EmergencyTrigger = 0;
         StartCoroutine(AlarmWithDelay());
+        //Npcs = GameObject.FindGameObjectsWithTag("npc");
     }
 
     private void Update()
@@ -55,6 +58,7 @@ public class CharacterMovement : MonoBehaviour
              //animator.SetBool("FireAlarm", true);
             AudioSource.clip = FireAlarm;
             AudioSource.Play();
+            EmergencyTrigger = 1;
         }
      }
 

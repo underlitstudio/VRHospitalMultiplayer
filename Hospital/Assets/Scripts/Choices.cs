@@ -6,6 +6,12 @@ using UnityEngine;
 public class Choices : MonoBehaviour
 {
     private TextMeshProUGUI textMeshPro;
+    
+    public int emergencyEscape = 0;
+    private void Start()
+    {
+       
+    }
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.R))
@@ -17,7 +23,13 @@ public class Choices : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.C))
         {
 
-            setup("There is a fire , let's get out !");
+            setup("How do we get out ? I am scared !");
+
+            StartCoroutine(SpeechObjectAfterDelay());
+
+           
+               
+            
         }
     }
 
@@ -25,7 +37,7 @@ public class Choices : MonoBehaviour
     {
         //backgroundsprite = transform.Find("Background").GetComponent<SpriteRenderer>();
         textMeshPro = transform.Find("Text").GetComponent<TextMeshProUGUI>();
-
+        
     }
 
 
@@ -34,4 +46,24 @@ public class Choices : MonoBehaviour
         textMeshPro.SetText(text);
         textMeshPro.ForceMeshUpdate();
     }
+
+
+    private IEnumerator SpeechObjectAfterDelay()
+    {
+        yield return new WaitForSeconds(3);
+
+        setup("I will follow you");
+        
+        Collider[] colliders = Physics.OverlapSphere(transform.position, 1);
+        foreach (Collider collider in colliders)
+        {
+            if (collider.TryGetComponent(out NPCInsteractable NPC))
+            {
+               
+                NPC.gameObject.GetComponent<EmergencyFollow>().enabled=true;
+            }
+        }
+
+
     }
+}

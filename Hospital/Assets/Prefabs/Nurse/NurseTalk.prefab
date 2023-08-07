@@ -2013,7 +2013,7 @@ GameObject:
   - component: {fileID: 8502643633376317733}
   m_Layer: 0
   m_Name: NurseTalk
-  m_TagString: Untagged
+  m_TagString: Npc
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2101,7 +2101,10 @@ MonoBehaviour:
   interactText: Talk to Female Nurse
   SpeechNPC: In the world of healthcare, I stand as a guiding light, dedicated to
     easing pain and bringing comfort throughout the night
-  player: {x: 0, y: 0, z: 0}
+  InteractionSpeech: 
+  EmergencySpeech: 
+  corePlayer: {fileID: 0}
+  initialPlace: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &8072128982632429134
 GameObject:
   m_ObjectHideFlags: 0

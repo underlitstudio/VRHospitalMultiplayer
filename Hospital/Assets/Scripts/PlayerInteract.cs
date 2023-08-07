@@ -18,6 +18,8 @@ public class PlayerInteract : MonoBehaviour
                 }
             }
         }
+
+        
     }
 
     public NPCInsteractable GetInsteractableObject()
