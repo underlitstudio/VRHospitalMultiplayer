@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class Choices : MonoBehaviour
 {
@@ -57,6 +58,7 @@ public class Choices : MonoBehaviour
                     setup("There's a fire, but let's stay composed. We need to find the nearest exit calmly and follow the emergency procedures. Staying focused is key right now.");
 
                     StartCoroutine(Follow());
+                    ScoringSystem.Score += 4;
                 }
                 if (text == "Anxious")
                 {
@@ -102,7 +104,7 @@ public class Choices : MonoBehaviour
                     //Debug.Log("here 2");
                     setup("Taking a deep breath does help. It's like my mind is always racing, but maybe focusing on the present can quiet some of the chaos. Thanks for being here.");
                     NPC.GetComponent<NPCInsteractable>().StatusChoice = "Calm";
-                   
+                    ScoringSystem.Score += 2;
 
                 }
                 if (text == "Depressed")
@@ -111,7 +113,7 @@ public class Choices : MonoBehaviour
                     setup("Thank you for trying to understand. It's just tough to believe in anything positive right now. But maybe, as you said, there's a small glimmer of hope somewhere.");
                     
                     NPC.GetComponent<NPCInsteractable>().StatusChoice = "Anxious";
-
+                    ScoringSystem.Score += 3;
                 }
             }
 
@@ -130,8 +132,9 @@ public class Choices : MonoBehaviour
         {
             if (collider.TryGetComponent(out NPCInsteractable NPC))
             {
-               
+                NPC.gameObject.GetComponent<NavMeshAgent>().enabled = true;  
                 NPC.gameObject.GetComponent<EmergencyFollow>().enabled=true;
+
             }
         }
 

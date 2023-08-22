@@ -390,10 +390,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactText: Talk to the Laying Patient
-  SpeechNPC: Living with asthma has reminded me to cherish life's joys and take care
-    of my respiratory health. Hug your loved ones and appreciate the gift of easy
-    breathing. Thank you for being a source of strength.
-  player: {x: 0, y: 0, z: 0}
+  SpeechNPC: " As a frequent visitor due to a chronic condition, I've had mixed experiences.
+    Some departments excel, while others feel disorganized. It's a rollercoaster
+    \u2013 some days I leave feeling cared for, other days I wonder if anyone even
+    noticed me."
+  InteractionSpeech: 
+  EmergencySpeech: 
+  EmergencyVoice: 
+  Status: []
+  StatusChoice: 
+  Types: []
+  type: 
+  corePlayer: {fileID: 0}
+  initialPlace: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &1898713980070696270
 GameObject:
   m_ObjectHideFlags: 0

@@ -58,6 +58,7 @@ public class CharacterMovement : MonoBehaviour
              //animator.SetBool("FireAlarm", true);
             AudioSource.clip = FireAlarm;
             AudioSource.Play();
+            ScoringSystem.Score += 1;
             EmergencyTrigger = 1;
         }
      }
@@ -86,7 +87,7 @@ public class CharacterMovement : MonoBehaviour
     private IEnumerator AlarmWithDelay()
     {
         yield return new WaitForSeconds(50);
-
+        EmergencyTrigger = 1;
         AudioSource.clip = FireAlarm;
         AudioSource.Play();
     }

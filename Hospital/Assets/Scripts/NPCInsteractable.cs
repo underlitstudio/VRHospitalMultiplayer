@@ -22,6 +22,7 @@ public class NPCInsteractable : MonoBehaviour
 
     private void Start()
     {
+        animator.SetBool("Sit",true) ;
         int randomStatus = Random.Range(0, Status.Length);
         StatusChoice = Status[randomStatus];
     }

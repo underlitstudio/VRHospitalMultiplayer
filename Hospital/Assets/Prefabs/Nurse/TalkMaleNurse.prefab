@@ -2073,6 +2073,8 @@ GameObject:
   - component: {fileID: -2105615045062361935}
   - component: {fileID: -5485968438148938963}
   - component: {fileID: 1605812393236254370}
+  - component: {fileID: 1181364415871982018}
+  - component: {fileID: -6090373538445497564}
   m_Layer: 0
   m_Name: TalkMaleNurse
   m_TagString: Npc
@@ -2161,11 +2163,52 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactText: Talk to Male Nurse
-  SpeechNPC: As a nurse, my purpose is to heal with compassion and care, making a
-    positive difference in every life I touch
+  SpeechNPC: The hospital's teamwork is its strength, but understaffing leads to
+    burnout. We need more hands on deck to maintain the quality of care we aim for.
   InteractionSpeech: 
+  EmergencySpeech: 
+  EmergencyVoice: 
+  Status: []
+  StatusChoice: 
+  Types: []
+  type: 
   corePlayer: {fileID: 0}
   initialPlace: {x: 0, y: 0, z: 0, w: 0}
+--- !u!195 &1181364415871982018
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8490827088915057923}
+  m_Enabled: 0
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &-6090373538445497564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8490827088915057923}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9902bdeba50e7349b86464be90587c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  followDistance: 5
 --- !u!1 &8507602118044692056
 GameObject:
   m_ObjectHideFlags: 0

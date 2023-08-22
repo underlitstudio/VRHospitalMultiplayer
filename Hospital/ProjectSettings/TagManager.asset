@@ -9,6 +9,7 @@ TagManager:
   - Fire
   - FireSpots
   - Npc
+  - WheelChair
   layers:
   - Default
   - TransparentFX

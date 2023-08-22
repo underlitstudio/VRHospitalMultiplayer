@@ -10,6 +10,7 @@ public class EmergencyFollow : MonoBehaviour
     private NavMeshAgent navMeshAgent;
     private GameObject player;
     private Animator animator;
+    
     private void Start()
     {
         animator = GetComponent<Animator>();
@@ -19,6 +20,7 @@ public class EmergencyFollow : MonoBehaviour
         {
             Debug.LogWarning("Player reference not set for AI.");
         }
+        animator.SetBool("Sit", false);
     }
 
     private void Update()
@@ -44,6 +46,7 @@ public class EmergencyFollow : MonoBehaviour
             // If the AI is too close, stop moving (you can add other behaviors here)
             navMeshAgent.SetDestination(transform.position);
             animator.SetTrigger("StandBy");
+
         }
     }
 }

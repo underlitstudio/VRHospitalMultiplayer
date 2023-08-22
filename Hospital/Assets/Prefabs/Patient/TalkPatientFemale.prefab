@@ -1092,11 +1092,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactText: Talk to the  Patient
-  SpeechNPC: Facing the challenges of multiple sclerosis has made me appreciate the
-    dedication of the hospital staff and the understanding of friends like you. Thank
-    you for being by my side.
+  SpeechNPC: ' I can''t thank this hospital enough for saving my son''s life. The
+    doctors acted swiftly and skillfully, and the nurses showed genuine care. The
+    facilities could be nicer, but the staff''s dedication is what matters most.  '
   InteractionSpeech: 
   EmergencySpeech: 
+  EmergencyVoice: 
+  Status: []
+  StatusChoice: 
+  Types: []
+  type: 
   corePlayer: {fileID: 0}
   initialPlace: {x: 0, y: 0, z: 0, w: 0}
 --- !u!195 &1365902906161106372

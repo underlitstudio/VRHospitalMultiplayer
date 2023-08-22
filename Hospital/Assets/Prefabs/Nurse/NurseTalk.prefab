@@ -2011,6 +2011,8 @@ GameObject:
   - component: {fileID: 874680726426501660}
   - component: {fileID: 8597724477034051}
   - component: {fileID: 8502643633376317733}
+  - component: {fileID: 8052980002197698867}
+  - component: {fileID: 8984421585921653669}
   m_Layer: 0
   m_Name: NurseTalk
   m_TagString: Npc
@@ -2099,12 +2101,53 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactText: Talk to Female Nurse
-  SpeechNPC: In the world of healthcare, I stand as a guiding light, dedicated to
-    easing pain and bringing comfort throughout the night
+  SpeechNPC: ' I''ve seen the dedication of our staff, but improving communication
+    between shifts and offering more professional development would boost morale
+    and patient outcomes.'
   InteractionSpeech: 
   EmergencySpeech: 
+  EmergencyVoice: 
+  Status: []
+  StatusChoice: 
+  Types: []
+  type: 
   corePlayer: {fileID: 0}
   initialPlace: {x: 0, y: 0, z: 0, w: 0}
+--- !u!195 &8052980002197698867
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7949396624379133170}
+  m_Enabled: 0
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &8984421585921653669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7949396624379133170}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9902bdeba50e7349b86464be90587c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  followDistance: 5
 --- !u!1 &8072128982632429134
 GameObject:
   m_ObjectHideFlags: 0

@@ -30,6 +30,7 @@ public class FireAlarm : MonoBehaviour
             GameObject vfxInstance = Instantiate(vfx, fireExtenPoint.transform.position, Quaternion.identity) as GameObject;
             Destroy(vfxInstance, 5f);
             Destroy(other.gameObject,3f);
+            ScoringSystem.Score += 1;
         }
         }
 

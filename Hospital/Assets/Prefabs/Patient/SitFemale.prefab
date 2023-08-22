@@ -249,11 +249,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactText: Talk to the Patient
-  SpeechNPC: This journey with diabetes might have knocked me down, but I won't let
-    it define me. Tough times don't last, and your presence is my motivation to keep
-    my health in check.
+  SpeechNPC: Honestly, I'm not too impressed. The waiting times are outrageous, and
+    the lack of communication about my treatment plan left me frustrated. They need
+    to work on efficiency and patient information sharing.
   InteractionSpeech: 
   EmergencySpeech: 
+  EmergencyVoice: 
+  Status: []
+  StatusChoice: 
+  Types: []
+  type: 
   corePlayer: {fileID: 0}
   initialPlace: {x: 0, y: 0, z: 0, w: 0}
 --- !u!54 &2812186847579288575
@@ -279,7 +284,7 @@ NavMeshAgent:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1040651225412914916}
-  m_Enabled: 1
+  m_Enabled: 0
   m_AgentTypeID: 0
   m_Radius: 0.5
   m_Speed: 3.5

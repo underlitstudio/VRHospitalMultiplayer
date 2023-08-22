@@ -265,11 +265,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactText: Talk to the Patient
-  SpeechNPC: Learning to manage my arthritis has taught me patience and the power
-    of a positive attitude. Cherish your health, and let's keep smiling through the
-    joint pains.
+  SpeechNPC: 'This hospital is a sanctuary of healing. The doctors and nurses have
+    been so attentive to my needs, making my stay comfortable despite my illness. '
   InteractionSpeech: 
   EmergencySpeech: 
+  EmergencyVoice: 
+  Status: []
+  StatusChoice: 
+  Types: []
+  type: 
   corePlayer: {fileID: 0}
   initialPlace: {x: 0, y: 0, z: 0, w: 0}
 --- !u!195 &584574675706649834
@@ -279,7 +283,7 @@ NavMeshAgent:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 841868560677243032}
-  m_Enabled: 1
+  m_Enabled: 0
   m_AgentTypeID: 0
   m_Radius: 0.5
   m_Speed: 3.5

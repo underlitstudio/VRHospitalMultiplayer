@@ -1261,11 +1261,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactText: Talk to the Patient
-  SpeechNPC: This journey with diabetes might have knocked me down, but I won't let
-    it define me. Tough times don't last, and your presence is my motivation to keep
-    my health in check.
+  SpeechNPC: This place is a necessary evil, I suppose. The bills keep piling up,
+    and while some staff are compassionate, others act like they're just punching
+    the clock. I'm not sure they understand the impact of their actions on people's
+    lives.
   InteractionSpeech: 
   EmergencySpeech: 
+  EmergencyVoice: 
+  Status: []
+  StatusChoice: 
+  Types: []
+  type: 
   corePlayer: {fileID: 0}
   initialPlace: {x: 0, y: 0, z: 0, w: 0}
 --- !u!195 &5653550882192907364

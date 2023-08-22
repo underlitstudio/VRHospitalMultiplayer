@@ -237,6 +237,8 @@ GameObject:
   - component: {fileID: 5242609602794445323}
   - component: {fileID: 3925164002183757600}
   - component: {fileID: 7660978034079133055}
+  - component: {fileID: 1351324942943991033}
+  - component: {fileID: 8044405428063128129}
   m_Layer: 0
   m_Name: Doctor
   m_TagString: Npc
@@ -325,11 +327,52 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactText: Talk to the Doctor
-  SpeechNPC: As a doctor, I pledge to use my knowledge and expertise to diagnose,
-    treat, and heal, striving to improve the lives of my patients every day.
+  SpeechNPC: The hospital's facilities are impressive, but administrative red tape
+    can hinder timely patient care. We need smoother communication and more resources.
   InteractionSpeech: 
+  EmergencySpeech: 
+  EmergencyVoice: 
+  Status: []
+  StatusChoice: 
+  Types: []
+  type: 
   corePlayer: {fileID: 0}
   initialPlace: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &1351324942943991033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1221944042933351773}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9902bdeba50e7349b86464be90587c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  followDistance: 5
+--- !u!195 &8044405428063128129
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1221944042933351773}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &1322422811058725241
 GameObject:
   m_ObjectHideFlags: 0

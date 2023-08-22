@@ -21,6 +21,7 @@ public class HoldItems : MonoBehaviour
         if (Input.GetKey("f"))
         {
             StartPickUp();
+            ScoringSystem.Score += 1;
         }
 
         if (Input.GetKeyUp("f"))

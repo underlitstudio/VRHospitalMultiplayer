@@ -1936,9 +1936,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactText: Talk to the Laying Patient
-  SpeechNPC: Living with cancer has been a challenge, but your visits bring comfort
-    and hope. Cherish each day you have, as I cherish your support. Thank you.
-  player: {x: 0, y: 0, z: 0}
+  SpeechNPC: The hospital gets a thumbs up from me. The surgery I had was successful,
+    and the rehab team is dedicated to getting me back on my feet. It's clear they
+    know their stuff, and that's what counts in the end.
+  InteractionSpeech: 
+  EmergencySpeech: 
+  EmergencyVoice: 
+  Status: []
+  StatusChoice: 
+  Types: []
+  type: 
+  corePlayer: {fileID: 0}
+  initialPlace: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &7408340182894324731
 GameObject:
   m_ObjectHideFlags: 0
