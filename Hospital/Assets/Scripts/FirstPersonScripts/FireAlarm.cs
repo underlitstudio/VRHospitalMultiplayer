@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Netcode;
 using UnityEngine;
 
-public class FireAlarm : MonoBehaviour
+public class FireAlarm : NetworkBehaviour
 {
     public GameObject vfx;
     private AudioSource AudioSource;
@@ -30,6 +31,7 @@ public class FireAlarm : MonoBehaviour
             GameObject vfxInstance = Instantiate(vfx, fireExtenPoint.transform.position, Quaternion.identity) as GameObject;
             Destroy(vfxInstance, 5f);
             Destroy(other.gameObject,3f);
+            other.GetComponent<NetworkObject>().Despawn(true);
             ScoringSystem.Score += 1;
         }
         }

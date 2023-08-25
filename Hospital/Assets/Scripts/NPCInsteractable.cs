@@ -2,8 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using Unity.Netcode;
 
-public class NPCInsteractable : MonoBehaviour
+public class NPCInsteractable : NetworkBehaviour
 {
     [SerializeField] private string interactText;
     [SerializeField] private string SpeechNPC;
@@ -22,15 +23,20 @@ public class NPCInsteractable : MonoBehaviour
 
     private void Start()
     {
-        animator.SetBool("Sit",true) ;
+        
+        
         int randomStatus = Random.Range(0, Status.Length);
         StatusChoice = Status[randomStatus];
+
+        
     }
     private void Awake()
     {
+       
+
         animator = GetComponent<Animator>();
-        player = GameObject.FindGameObjectWithTag("Player");
-        corePlayer = FindAnyObjectByType<CharacterMovement>().gameObject;
+        
+        animator.SetBool("Sit", true);
         initialPlace = gameObject.transform.rotation;
 
 
@@ -39,9 +45,28 @@ public class NPCInsteractable : MonoBehaviour
         int randomType = Random.Range(0, Types.Length);
         type = Types[randomType];
     }
+
     private void Update()
     {
-        if(CharacterMovement.EmergencyTrigger != 0)
+        
+            
+        
+
+        if (!IsOwner)
+        {
+            return;
+        }
+        if (corePlayer !=null )
+        {
+            corePlayer = FindAnyObjectByType<CharacterMovement>().gameObject;
+        }
+
+        if( player != null)
+        {
+            player = GameObject.FindGameObjectWithTag("Player");
+        }
+       
+        if (CharacterMovement.EmergencyTrigger != 0)
         {
             
             animator.SetTrigger("Emergency");

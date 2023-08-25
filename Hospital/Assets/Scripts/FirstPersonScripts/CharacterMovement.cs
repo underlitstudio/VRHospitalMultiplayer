@@ -1,8 +1,9 @@
+using Unity.Netcode;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CharacterMovement : MonoBehaviour
+public class CharacterMovement : NetworkBehaviour
 {
     public float speed = 5f;
 
@@ -15,6 +16,7 @@ public class CharacterMovement : MonoBehaviour
     private AudioSource AudioSource;
     //private GameObject[] Npcs;
     public static int EmergencyTrigger = 0 ;
+    private GameObject[] SpawnPlayer;
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -23,24 +25,49 @@ public class CharacterMovement : MonoBehaviour
         //EmergencyTrigger = 0;
         StartCoroutine(AlarmWithDelay());
         //Npcs = GameObject.FindGameObjectsWithTag("npc");
+
+       
+    }
+
+    private void initializeCam()
+    {
+        if (IsLocalPlayer == false)
+        {
+            Camera.gameObject.SetActive(false);
+        }
+    }
+    public override void OnNetworkSpawn()
+    {
+        base.OnNetworkSpawn();
+        initializeCam();
     }
 
     private void Update()
     {
-        float horizontalInput = Input.GetAxis("Horizontal"); 
-        float verticalInput = Input.GetAxis("Vertical"); 
 
-        Vector3 movement = new Vector3(horizontalInput, 0f, verticalInput); 
-
-        if (movement != Vector3.zero)
+            if(IsOwner == true)
         {
-            Quaternion toRotation = Quaternion.LookRotation(movement, Vector3.up); 
-            transform.rotation = Quaternion.RotateTowards(transform.rotation, toRotation, Time.deltaTime * 200f); 
-        }
 
-        animator.SetFloat("Speed", movement.magnitude); 
+            float horizontalInput = Input.GetAxis("Horizontal");
+            float verticalInput = Input.GetAxis("Vertical");
 
-        rb.velocity = movement * speed;
+            Vector3 movement = new Vector3(horizontalInput, 0f, verticalInput);
+
+            if (movement != Vector3.zero)
+            {
+                Quaternion toRotation = Quaternion.LookRotation(movement, Vector3.up);
+                transform.rotation = Quaternion.RotateTowards(transform.rotation, toRotation, Time.deltaTime * 200f);
+            }
+
+            animator.SetFloat("Speed", movement.magnitude);
+
+            rb.velocity = movement * speed;
+
+        }   
+            
+        
+
+       
 
         /* if (Input.GetKey("f")&&(!isAnimating))
          {
@@ -48,6 +75,30 @@ public class CharacterMovement : MonoBehaviour
              isAnimating = true;
          }*/
     }
+    private void Awake()
+    {
+        SpawnPlayer = GameObject.FindGameObjectsWithTag("SpawnerPlayer");
+    }
+   /* public override void OnNetworkSpawn()
+    {
+        base.OnNetworkSpawn();
+        if (!IsOwner)
+        {
+            this.enabled = false;
+        }
+        else
+        {
+            this.enabled = false;
+            for( int i=0; i<SpawnPlayer.Length; i++)
+            {
+                this.transform.position = SpawnPlayer[i].transform.position;
+            }
+            
+
+            this.enabled = true;
+            
+        }
+    }*/
 
     private void OnTriggerEnter(Collider other)
     {
@@ -91,4 +142,7 @@ public class CharacterMovement : MonoBehaviour
         AudioSource.clip = FireAlarm;
         AudioSource.Play();
     }
+
+
+
 }

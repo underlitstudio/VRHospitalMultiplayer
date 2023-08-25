@@ -2,8 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting.Antlr3.Runtime.Misc;
 using UnityEngine;
+using Unity.Netcode;
 
-public class FireSpawner : MonoBehaviour
+public class FireSpawner : NetworkBehaviour
 {
    // public GameObject vfxFire;
     public GameObject[] FireSpot;
@@ -18,15 +19,28 @@ public class FireSpawner : MonoBehaviour
     void Start()
     {
         FireSpot = GameObject.FindGameObjectsWithTag("FireSpots");
-        StartCoroutine(SpawnObjectAfterDelay());
         
     }
 
+    private void Awake()
+    {
+
+        
+
+       // if (!NetworkManager.Singleton.IsServer) return;
+
+    }
+
+    public override void OnNetworkSpawn()
+    {
+        base.OnNetworkSpawn();
+        StartCoroutine(SpawnObjectAfterDelay());
+    }
 
     // Update is called once per frame
     void Update()
     {
-
+      
     }
 
 
@@ -34,14 +48,17 @@ public class FireSpawner : MonoBehaviour
     {
         yield return new WaitForSeconds(20);
 
-        spawnFire();
+        spawnFireServerRPC();
         Signal.gameObject.SetActive(true);
     }
 
-    public void spawnFire()
+    [ServerRpc]
+    public void spawnFireServerRPC()
     {
         int randomIndex = Random.Range(0, FireSpot.Length);
-        Instantiate(fire, FireSpot[randomIndex].transform.position, Quaternion.identity);
+
+        GameObject spawner = Instantiate(fire, FireSpot[randomIndex].transform.position, Quaternion.identity);
+        spawner.GetComponent<NetworkObject>().Spawn(); 
        // Instantiate(vfxFire, FireSpot[randomIndex].transform.position, Quaternion.identity) ;
         
 

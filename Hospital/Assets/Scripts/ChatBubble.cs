@@ -1,8 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
-using System.IO;
 using TMPro;
-using UnityEditor.VersionControl;
 using UnityEngine;
 
 public class ChatBubble : MonoBehaviour

@@ -3,10 +3,8 @@ using TMPro;
 using System.Collections;
 using UnityEngine.Networking;
 using UnityEngine.UI;
-using System.Text.RegularExpressions;
 using UnityEngine.SceneManagement;
-using System.Net;
-using UnityEditor.PackageManager.Requests;
+
 
 public class Login : MonoBehaviour
 {
