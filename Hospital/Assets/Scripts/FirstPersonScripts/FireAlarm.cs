@@ -28,13 +28,16 @@ public class FireAlarm : NetworkBehaviour
         {
             AudioSource.clip = FireExten;
             AudioSource.Play();
-            GameObject vfxInstance = Instantiate(vfx, fireExtenPoint.transform.position, Quaternion.identity) as GameObject;
-            Destroy(vfxInstance, 5f);
+            spawnAntiFireServerRpc();
             Destroy(other.gameObject,3f);
             other.GetComponent<NetworkObject>().Despawn(true);
             ScoringSystem.Score += 1;
         }
         }
 
-
+    [ServerRpc]
+    private void spawnAntiFireServerRpc() {
+        GameObject vfxInstance = Instantiate(vfx, fireExtenPoint.transform.position, Quaternion.identity) as GameObject;
+        Destroy(vfxInstance, 5f);
+    }
 }

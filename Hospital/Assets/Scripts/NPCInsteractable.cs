@@ -52,10 +52,7 @@ public class NPCInsteractable : NetworkBehaviour
             
         
 
-        if (!IsOwner)
-        {
-            return;
-        }
+       
         if (corePlayer !=null )
         {
             corePlayer = FindAnyObjectByType<CharacterMovement>().gameObject;

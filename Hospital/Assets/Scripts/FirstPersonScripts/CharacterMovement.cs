@@ -16,7 +16,6 @@ public class CharacterMovement : NetworkBehaviour
     private AudioSource AudioSource;
     //private GameObject[] Npcs;
     public static int EmergencyTrigger = 0 ;
-    private GameObject[] SpawnPlayer;
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -75,10 +74,7 @@ public class CharacterMovement : NetworkBehaviour
              isAnimating = true;
          }*/
     }
-    private void Awake()
-    {
-        SpawnPlayer = GameObject.FindGameObjectsWithTag("SpawnerPlayer");
-    }
+   
    /* public override void OnNetworkSpawn()
     {
         base.OnNetworkSpawn();
