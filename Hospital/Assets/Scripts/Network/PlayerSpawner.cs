@@ -11,6 +11,7 @@ public class PlayerSpawner : NetworkBehaviour
 {
     public GameObject[] playerPrefab;
     public int clientID;
+    [SerializeField] private GameObject playerTransform;
 
 
     private void Start()
@@ -34,10 +35,13 @@ public class PlayerSpawner : NetworkBehaviour
 
         if (IsServer == true)
         {
+
             GameObject playerk =  SpawnPlayer();
+            GameObject playerz = spawnTransform();
+            playerz.transform.SetParent(playerk.transform);
             //Debug.Log(playerk.transform.GetChild(2).name.ToString());
-           
-            
+
+
             playerk.transform.SetParent(gameObject.transform);
            
           
@@ -53,8 +57,8 @@ public class PlayerSpawner : NetworkBehaviour
     {
         GameObject[] spawnPoints = GameObject.FindGameObjectsWithTag("SpawnerPlayer");
         
-        int num1 = Random.Range(0, spawnPoints.Length - 1);
-        int num2 = Random.Range(0, playerPrefab.Length - 1);
+        int num1 = Random.Range(0, spawnPoints.Length );
+        int num2 = Random.Range(0, playerPrefab.Length -1);
         GameObject go = Instantiate(playerPrefab[num2], spawnPoints[num1].transform.position, Quaternion.identity);
        
         //go.transform.SetParent(gameObject.transform);
@@ -65,5 +69,13 @@ public class PlayerSpawner : NetworkBehaviour
         //    go.transform.GetChild(2).gameObject.SetActive(true);
         //}
         return go;
+    }
+
+
+    public GameObject spawnTransform()
+    {
+        GameObject spawner = Instantiate(playerTransform, transform.position, Quaternion.identity);
+        spawner.GetComponent<NetworkObject>().Spawn();
+        return spawner;
     }
 }

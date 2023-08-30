@@ -257,37 +257,6 @@ Transform:
   m_Father: {fileID: 6057460393801476048}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1180315031129396969
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8189288604545915868}
-  m_Layer: 0
-  m_Name: PlayerTransform
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8189288604545915868
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1180315031129396969}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.119, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 8753657561726743437}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1351498706473329728
 GameObject:
   m_ObjectHideFlags: 0
@@ -970,7 +939,7 @@ GameObject:
   - component: {fileID: 8127813350899836065}
   m_Layer: 0
   m_Name: Camera
-  m_TagString: Player
+  m_TagString: PlayerCore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -986,8 +955,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 1.282, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 8189288604545915868}
+  m_Children: []
   m_Father: {fileID: 8218114981997838543}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2425,7 +2393,7 @@ GameObject:
   - component: {fileID: 5668122599181331719}
   m_Layer: 0
   m_Name: PlayerMale
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2529,9 +2497,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Object:
   - {fileID: 0}
-  PlayerTransform: {fileID: 8189288604545915868}
-  range: 3
-  Go: 100
+  PlayerTransform: {fileID: 0}
   Camera: {fileID: 4148143164181195992}
 --- !u!114 &6573150218409229183
 MonoBehaviour:

@@ -15,11 +15,12 @@ public class NPCInsteractable : NetworkBehaviour
     [SerializeField] public string StatusChoice;
     [SerializeField] private string[] Types;
     [SerializeField] public string type;
+    [SerializeField] public GameObject[] Npcs;
     private Animator animator;
     private NavMeshAgent agent;
-    private GameObject player;
-    public GameObject corePlayer;
-    public Quaternion initialPlace;
+    public GameObject[] player;
+    public GameObject[] corePlayer;
+    private Quaternion initialPlace;
 
     private void Start()
     {
@@ -35,12 +36,18 @@ public class NPCInsteractable : NetworkBehaviour
        
 
         animator = GetComponent<Animator>();
-        
-        animator.SetBool("Sit", true);
+        for (int i = 0; i < Npcs.Length; i++)
+        {
+            if(gameObject == Npcs[i])
+            {
+                animator.SetBool("Sit", true);
+            }
+            
+        }
         initialPlace = gameObject.transform.rotation;
 
+        Npcs = GameObject.FindGameObjectsWithTag("Npc");
 
-       
 
         int randomType = Random.Range(0, Types.Length);
         type = Types[randomType];
@@ -48,26 +55,31 @@ public class NPCInsteractable : NetworkBehaviour
 
     private void Update()
     {
-        
-            
-        
 
-       
-        if (corePlayer !=null )
+
+
+
+        //player1 = FindObjectsOfType<CharacterMovement>();
+
+        if (player != null)
         {
-            corePlayer = FindAnyObjectByType<CharacterMovement>().gameObject;
+             player = GameObject.FindGameObjectsWithTag("Player");
+
         }
 
-        if( player != null)
+        if (corePlayer != null)
         {
-            player = GameObject.FindGameObjectWithTag("Player");
+            corePlayer = GameObject.FindGameObjectsWithTag("PlayerCore");
+
         }
-       
-        if (CharacterMovement.EmergencyTrigger != 0)
-        {
-            
-            animator.SetTrigger("Emergency");
-        }
+        for (int i = 0; i < Npcs.Length; i++)
+        { 
+            if ((CharacterMovement.EmergencyTrigger != 0) && (gameObject == Npcs[i]))
+            {
+
+                animator.SetTrigger("Emergency");
+            }
+         }
         if (!gameObject.GetComponent<EmergencyFollow>())
         {
             return;
@@ -83,8 +95,33 @@ public class NPCInsteractable : NetworkBehaviour
     }
     public void Interact(Transform interactorTransform)
     {
-        
-        gameObject.transform.LookAt(corePlayer.transform);
+        if (corePlayer != null)
+        {
+            corePlayer = GameObject.FindGameObjectsWithTag("PlayerCore");
+
+        }
+
+        Collider[] colliders = Physics.OverlapSphere(transform.position, 1.5f);
+        foreach (Collider collider in colliders)
+        {
+            for (int i = 0; i < corePlayer.Length; i++)
+            {
+                for(int j = 0; j < player.Length; j++)
+                {
+                    if (collider.gameObject == player[i])
+                    {
+                        Debug.Log("here");
+                        gameObject.transform.LookAt(collider.gameObject.transform);
+                        ChatBubble.Create(collider.gameObject.transform, new Vector3(0f, 1.594f, 0.578f), SpeechNPC, StatusChoice, type);
+                    }
+                }
+              
+
+                
+                    
+            }
+        }
+
         if (StatusChoice == "Calm")
         {
             SpeechNPC = "Living with my illness is a journey, but I've learned ways to handle it and find moments of calm amidst it all.";
@@ -100,7 +137,6 @@ public class NPCInsteractable : NetworkBehaviour
             SpeechNPC = "I've been dealing with this illness that just weighs me down all the time, making it hard to find any joy";
         }
 
-        ChatBubble.Create(player.transform, new Vector3(0f,0.023f,0.7f), SpeechNPC, StatusChoice , type);
        
 
         //animator.SetTrigger("Talk");

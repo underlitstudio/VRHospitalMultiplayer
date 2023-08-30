@@ -5,23 +5,28 @@ using TMPro;
 public class PlayerInteractableUi : MonoBehaviour
 {
     [SerializeField] private GameObject containerGameObject;
-    [SerializeField] private PlayerInteract playerInteract;
+    [SerializeField] private PlayerInteract[] playerInteract;
     [SerializeField] private TextMeshProUGUI interactTextMeshProUIGUI;
 
     private void Start()
     {
-      playerInteract  = FindObjectOfType<PlayerInteract>();        
+       
+         
     }
     private void Update()
     {
-        if(playerInteract.GetInsteractableObject() != null)
+        playerInteract = FindObjectsOfType<PlayerInteract>();
+        for (int i = 0; i < playerInteract.Length; i++)
         {
-            show(playerInteract.GetInsteractableObject());
+            if (playerInteract[i].GetInsteractableObject() != null)
+            {
+                show(playerInteract[i].GetInsteractableObject());
+            }
+            else
+            {
+                Hide();
+            }
         }
-        else
-        {
-            Hide();
-        }        
     }
     private void show(NPCInsteractable npcinteractable)
     {
