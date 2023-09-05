@@ -1138,6 +1138,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1494754218}
     m_Modifications:
+    - target: {fileID: 24313106229786584, guid: b7e885e4733c9b745ac523e8d84d7d4e,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 578361607
+      objectReference: {fileID: 0}
     - target: {fileID: 64521894603051554, guid: b7e885e4733c9b745ac523e8d84d7d4e,
         type: 3}
       propertyPath: m_RootOrder
@@ -1332,6 +1337,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1494754218}
     m_Modifications:
+    - target: {fileID: 24313106229786584, guid: b7e885e4733c9b745ac523e8d84d7d4e,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3726922938
+      objectReference: {fileID: 0}
     - target: {fileID: 64521894603051554, guid: b7e885e4733c9b745ac523e8d84d7d4e,
         type: 3}
       propertyPath: m_RootOrder
@@ -3474,6 +3484,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1494754218}
     m_Modifications:
+    - target: {fileID: 24313106229786584, guid: b7e885e4733c9b745ac523e8d84d7d4e,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3283653576
+      objectReference: {fileID: 0}
     - target: {fileID: 64521894603051554, guid: b7e885e4733c9b745ac523e8d84d7d4e,
         type: 3}
       propertyPath: m_RootOrder
@@ -4375,6 +4390,11 @@ PrefabInstance:
       propertyPath: Types.Array.data[15]
       value: BrokenBone
       objectReference: {fileID: 0}
+    - target: {fileID: 5419350158580716232, guid: 86afa4c685456a14fa9c6f3913d6868f,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1376468095
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86afa4c685456a14fa9c6f3913d6868f, type: 3}
 --- !u!1 &103238954
@@ -5189,6 +5209,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1494754218}
     m_Modifications:
+    - target: {fileID: 24313106229786584, guid: b7e885e4733c9b745ac523e8d84d7d4e,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 4089958425
+      objectReference: {fileID: 0}
     - target: {fileID: 64521894603051554, guid: b7e885e4733c9b745ac523e8d84d7d4e,
         type: 3}
       propertyPath: m_RootOrder
@@ -8203,6 +8228,11 @@ PrefabInstance:
       propertyPath: Types.Array.data[15]
       value: BrokenBone
       objectReference: {fileID: 0}
+    - target: {fileID: 5419350158580716232, guid: 86afa4c685456a14fa9c6f3913d6868f,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2677298710
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86afa4c685456a14fa9c6f3913d6868f, type: 3}
 --- !u!1001 &229580370
@@ -8945,6 +8975,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TalkPatientMale (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5611245516087803838, guid: 31852a29ca458bf499e57398b091fb64,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 783894094
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31852a29ca458bf499e57398b091fb64, type: 3}
@@ -11152,6 +11187,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1494754218}
     m_Modifications:
+    - target: {fileID: 3602890168083387356, guid: d080d22586fa74449900a08f60af3b34,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 464308568
+      objectReference: {fileID: 0}
     - target: {fileID: 4787947027564443976, guid: d080d22586fa74449900a08f60af3b34,
         type: 3}
       propertyPath: m_Name
@@ -13504,6 +13544,11 @@ PrefabInstance:
       propertyPath: Types.Array.data[15]
       value: Broken Bone
       objectReference: {fileID: 0}
+    - target: {fileID: 5083816021164121044, guid: 5325c0d607a4ae247b04e61858dac757,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 829677810
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5325c0d607a4ae247b04e61858dac757, type: 3}
 --- !u!1 &428681987 stripped
@@ -13533,6 +13578,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1494754218}
     m_Modifications:
+    - target: {fileID: 24313106229786584, guid: b7e885e4733c9b745ac523e8d84d7d4e,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2477495286
+      objectReference: {fileID: 0}
     - target: {fileID: 64521894603051554, guid: b7e885e4733c9b745ac523e8d84d7d4e,
         type: 3}
       propertyPath: m_RootOrder
@@ -17811,6 +17861,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1494754218}
     m_Modifications:
+    - target: {fileID: 24313106229786584, guid: b7e885e4733c9b745ac523e8d84d7d4e,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 4093516258
+      objectReference: {fileID: 0}
     - target: {fileID: 64521894603051554, guid: b7e885e4733c9b745ac523e8d84d7d4e,
         type: 3}
       propertyPath: m_RootOrder
@@ -18175,6 +18230,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TalkPatientMale (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5611245516087803838, guid: 31852a29ca458bf499e57398b091fb64,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3034442942
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31852a29ca458bf499e57398b091fb64, type: 3}
@@ -18982,6 +19042,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1494754218}
     m_Modifications:
+    - target: {fileID: 3602890168083387356, guid: d080d22586fa74449900a08f60af3b34,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 702685158
+      objectReference: {fileID: 0}
     - target: {fileID: 4787947027564443976, guid: d080d22586fa74449900a08f60af3b34,
         type: 3}
       propertyPath: m_Name
@@ -20295,6 +20360,11 @@ PrefabInstance:
       propertyPath: Types.Array.data[15]
       value: BrokenBone
       objectReference: {fileID: 0}
+    - target: {fileID: 5419350158580716232, guid: 86afa4c685456a14fa9c6f3913d6868f,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1823186638
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86afa4c685456a14fa9c6f3913d6868f, type: 3}
 --- !u!4 &653314947 stripped
@@ -20814,6 +20884,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1494754218}
     m_Modifications:
+    - target: {fileID: 24313106229786584, guid: b7e885e4733c9b745ac523e8d84d7d4e,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1048732087
+      objectReference: {fileID: 0}
     - target: {fileID: 64521894603051554, guid: b7e885e4733c9b745ac523e8d84d7d4e,
         type: 3}
       propertyPath: m_RootOrder
@@ -21602,6 +21677,11 @@ PrefabInstance:
       propertyPath: Types.Array.data[15]
       value: BrokenBone
       objectReference: {fileID: 0}
+    - target: {fileID: 5419350158580716232, guid: 86afa4c685456a14fa9c6f3913d6868f,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2469744908
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86afa4c685456a14fa9c6f3913d6868f, type: 3}
 --- !u!4 &708950013 stripped
@@ -22037,6 +22117,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1494754218}
     m_Modifications:
+    - target: {fileID: 24313106229786584, guid: b7e885e4733c9b745ac523e8d84d7d4e,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 4280827533
+      objectReference: {fileID: 0}
     - target: {fileID: 64521894603051554, guid: b7e885e4733c9b745ac523e8d84d7d4e,
         type: 3}
       propertyPath: m_RootOrder
@@ -22737,6 +22822,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: TalkPatientMale (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5611245516087803838, guid: 31852a29ca458bf499e57398b091fb64,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2287182585
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31852a29ca458bf499e57398b091fb64, type: 3}
 --- !u!4 &758363582 stripped
@@ -23394,6 +23484,11 @@ PrefabInstance:
       propertyPath: Types.Array.data[15]
       value: BrokenBone
       objectReference: {fileID: 0}
+    - target: {fileID: 5419350158580716232, guid: 86afa4c685456a14fa9c6f3913d6868f,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3420551253
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86afa4c685456a14fa9c6f3913d6868f, type: 3}
 --- !u!4 &773685594 stripped
@@ -23813,6 +23908,11 @@ PrefabInstance:
         type: 3}
       propertyPath: Types.Array.data[15]
       value: BrokenBone
+      objectReference: {fileID: 0}
+    - target: {fileID: 5419350158580716232, guid: 86afa4c685456a14fa9c6f3913d6868f,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1455180598
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86afa4c685456a14fa9c6f3913d6868f, type: 3}
@@ -24435,6 +24535,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1494754218}
     m_Modifications:
+    - target: {fileID: 24313106229786584, guid: b7e885e4733c9b745ac523e8d84d7d4e,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1126397543
+      objectReference: {fileID: 0}
     - target: {fileID: 64521894603051554, guid: b7e885e4733c9b745ac523e8d84d7d4e,
         type: 3}
       propertyPath: m_RootOrder
@@ -24785,6 +24890,11 @@ PrefabInstance:
       propertyPath: Types.Array.data[15]
       value: BrokenBone
       objectReference: {fileID: 0}
+    - target: {fileID: 5419350158580716232, guid: 86afa4c685456a14fa9c6f3913d6868f,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 4260500674
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86afa4c685456a14fa9c6f3913d6868f, type: 3}
 --- !u!1 &820255186 stripped
@@ -25075,104 +25185,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &833024025
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 833024028}
-  - component: {fileID: 833024027}
-  - component: {fileID: 833024026}
-  m_Layer: 0
-  m_Name: NetworkManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &833024026
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 833024025}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6960e84d07fb87f47956e7a81d71c4e6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_ProtocolType: 0
-  m_MaxPacketQueueSize: 128
-  m_MaxPayloadSize: 6144
-  m_HeartbeatTimeoutMS: 500
-  m_ConnectTimeoutMS: 1000
-  m_MaxConnectAttempts: 60
-  m_DisconnectTimeoutMS: 30000
-  ConnectionData:
-    Address: 127.0.0.1
-    Port: 7777
-    ServerListenAddress: 0.0.0.0
-  DebugSimulator:
-    PacketDelayMS: 0
-    PacketJitterMS: 0
-    PacketDropRate: 0
---- !u!114 &833024027
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 833024025}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 593a2fe42fa9d37498c96f9a383b6521, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  RunInBackground: 1
-  LogLevel: 3
-  NetworkConfig:
-    ProtocolVersion: 0
-    NetworkTransport: {fileID: 833024026}
-    PlayerPrefab: {fileID: 4650380628088477801, guid: 09aaaa48d8b98d248999cc295da6311c,
-      type: 3}
-    Prefabs:
-      NetworkPrefabsLists:
-      - {fileID: 11400000, guid: b4574f3a8a705c44685ba54bb224c337, type: 2}
-    TickRate: 30
-    ClientConnectionBufferTimeout: 10
-    ConnectionApproval: 0
-    ConnectionData: 
-    EnableTimeResync: 0
-    TimeResyncInterval: 30
-    EnsureNetworkVariableLengthSafety: 0
-    EnableSceneManagement: 1
-    ForceSamePrefabs: 1
-    RecycleNetworkIds: 1
-    NetworkIdRecycleDelay: 120
-    RpcHashSize: 0
-    LoadSceneTimeOut: 120
-    SpawnTimeout: 1
-    EnableNetworkLogs: 1
-    OldPrefabList: []
---- !u!4 &833024028
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 833024025}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &835455912 stripped
 GameObject:
@@ -27031,6 +27043,11 @@ PrefabInstance:
         type: 3}
       propertyPath: Types.Array.data[15]
       value: BrokenBone
+      objectReference: {fileID: 0}
+    - target: {fileID: 5419350158580716232, guid: 86afa4c685456a14fa9c6f3913d6868f,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 57413759
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86afa4c685456a14fa9c6f3913d6868f, type: 3}
@@ -29401,6 +29418,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1494754218}
     m_Modifications:
+    - target: {fileID: 24313106229786584, guid: b7e885e4733c9b745ac523e8d84d7d4e,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 319910311
+      objectReference: {fileID: 0}
     - target: {fileID: 64521894603051554, guid: b7e885e4733c9b745ac523e8d84d7d4e,
         type: 3}
       propertyPath: m_RootOrder
@@ -31715,6 +31737,11 @@ PrefabInstance:
       propertyPath: Types.Array.data[15]
       value: BrokenBone
       objectReference: {fileID: 0}
+    - target: {fileID: 5419350158580716232, guid: 86afa4c685456a14fa9c6f3913d6868f,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2702811958
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86afa4c685456a14fa9c6f3913d6868f, type: 3}
 --- !u!1 &1036964010 stripped
@@ -31908,6 +31935,11 @@ PrefabInstance:
         type: 3}
       propertyPath: Types.Array.data[15]
       value: BrokenBone
+      objectReference: {fileID: 0}
+    - target: {fileID: 5419350158580716232, guid: 86afa4c685456a14fa9c6f3913d6868f,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 86419964
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86afa4c685456a14fa9c6f3913d6868f, type: 3}
@@ -32513,6 +32545,11 @@ PrefabInstance:
         type: 3}
       propertyPath: Types.Array.data[15]
       value: BrokenBone
+      objectReference: {fileID: 0}
+    - target: {fileID: 5419350158580716232, guid: 86afa4c685456a14fa9c6f3913d6868f,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 174931351
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86afa4c685456a14fa9c6f3913d6868f, type: 3}
@@ -33413,6 +33450,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1494754218}
     m_Modifications:
+    - target: {fileID: 24313106229786584, guid: b7e885e4733c9b745ac523e8d84d7d4e,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1477998093
+      objectReference: {fileID: 0}
     - target: {fileID: 64521894603051554, guid: b7e885e4733c9b745ac523e8d84d7d4e,
         type: 3}
       propertyPath: m_RootOrder
@@ -34365,6 +34407,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1494754218}
     m_Modifications:
+    - target: {fileID: 24313106229786584, guid: b7e885e4733c9b745ac523e8d84d7d4e,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 4158310811
+      objectReference: {fileID: 0}
     - target: {fileID: 64521894603051554, guid: b7e885e4733c9b745ac523e8d84d7d4e,
         type: 3}
       propertyPath: m_RootOrder
@@ -49169,6 +49216,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1494754218}
     m_Modifications:
+    - target: {fileID: 24313106229786584, guid: b7e885e4733c9b745ac523e8d84d7d4e,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3175990831
+      objectReference: {fileID: 0}
     - target: {fileID: 64521894603051554, guid: b7e885e4733c9b745ac523e8d84d7d4e,
         type: 3}
       propertyPath: m_RootOrder
@@ -50682,6 +50734,11 @@ PrefabInstance:
         type: 3}
       propertyPath: Types.Array.data[15]
       value: BrokenBone
+      objectReference: {fileID: 0}
+    - target: {fileID: 5419350158580716232, guid: 86afa4c685456a14fa9c6f3913d6868f,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 133647455
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86afa4c685456a14fa9c6f3913d6868f, type: 3}
@@ -52290,7 +52347,7 @@ Transform:
   - {fileID: 1812763378}
   - {fileID: 130872603}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1328728300
 PrefabInstance:
@@ -53149,6 +53206,11 @@ PrefabInstance:
         type: 3}
       propertyPath: Types.Array.data[15]
       value: BrokenBone
+      objectReference: {fileID: 0}
+    - target: {fileID: 5419350158580716232, guid: 86afa4c685456a14fa9c6f3913d6868f,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1512109767
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86afa4c685456a14fa9c6f3913d6868f, type: 3}
@@ -55796,6 +55858,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1494754218}
     m_Modifications:
+    - target: {fileID: 24313106229786584, guid: b7e885e4733c9b745ac523e8d84d7d4e,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1044099829
+      objectReference: {fileID: 0}
     - target: {fileID: 64521894603051554, guid: b7e885e4733c9b745ac523e8d84d7d4e,
         type: 3}
       propertyPath: m_RootOrder
@@ -57169,6 +57236,11 @@ PrefabInstance:
         type: 3}
       propertyPath: Types.Array.data[15]
       value: BrokenBone
+      objectReference: {fileID: 0}
+    - target: {fileID: 5419350158580716232, guid: 86afa4c685456a14fa9c6f3913d6868f,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3653743850
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86afa4c685456a14fa9c6f3913d6868f, type: 3}
@@ -59270,6 +59342,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1494754218}
     m_Modifications:
+    - target: {fileID: 24313106229786584, guid: b7e885e4733c9b745ac523e8d84d7d4e,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1037457266
+      objectReference: {fileID: 0}
     - target: {fileID: 64521894603051554, guid: b7e885e4733c9b745ac523e8d84d7d4e,
         type: 3}
       propertyPath: m_RootOrder
@@ -61393,6 +61470,11 @@ PrefabInstance:
       propertyPath: Types.Array.data[15]
       value: BrokenBone
       objectReference: {fileID: 0}
+    - target: {fileID: 5419350158580716232, guid: 86afa4c685456a14fa9c6f3913d6868f,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3666028874
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86afa4c685456a14fa9c6f3913d6868f, type: 3}
 --- !u!1 &1666501239 stripped
@@ -62165,6 +62247,11 @@ PrefabInstance:
         type: 3}
       propertyPath: Types.Array.data[15]
       value: BrokenBone
+      objectReference: {fileID: 0}
+    - target: {fileID: 5419350158580716232, guid: 86afa4c685456a14fa9c6f3913d6868f,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2419347064
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86afa4c685456a14fa9c6f3913d6868f, type: 3}
@@ -68597,6 +68684,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1494754218}
     m_Modifications:
+    - target: {fileID: 24313106229786584, guid: b7e885e4733c9b745ac523e8d84d7d4e,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 4066579955
+      objectReference: {fileID: 0}
     - target: {fileID: 64521894603051554, guid: b7e885e4733c9b745ac523e8d84d7d4e,
         type: 3}
       propertyPath: m_RootOrder
@@ -70532,6 +70624,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TalkPatientMale (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5611245516087803838, guid: 31852a29ca458bf499e57398b091fb64,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3145111360
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31852a29ca458bf499e57398b091fb64, type: 3}
@@ -73267,6 +73364,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1494754218}
     m_Modifications:
+    - target: {fileID: 24313106229786584, guid: b7e885e4733c9b745ac523e8d84d7d4e,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2618619260
+      objectReference: {fileID: 0}
     - target: {fileID: 64521894603051554, guid: b7e885e4733c9b745ac523e8d84d7d4e,
         type: 3}
       propertyPath: m_RootOrder
@@ -74342,6 +74444,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: TalkPatientMale
       objectReference: {fileID: 0}
+    - target: {fileID: 5611245516087803838, guid: 31852a29ca458bf499e57398b091fb64,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3886196426
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31852a29ca458bf499e57398b091fb64, type: 3}
 --- !u!1001 &193737348033492202
@@ -74516,6 +74623,11 @@ PrefabInstance:
       propertyPath: Types.Array.data[15]
       value: BrokenBone
       objectReference: {fileID: 0}
+    - target: {fileID: 5419350158580716232, guid: 86afa4c685456a14fa9c6f3913d6868f,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2861884076
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86afa4c685456a14fa9c6f3913d6868f, type: 3}
 --- !u!1001 &535791119857004781
@@ -74525,6 +74637,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1494754218}
     m_Modifications:
+    - target: {fileID: 24313106229786584, guid: b7e885e4733c9b745ac523e8d84d7d4e,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1688688513
+      objectReference: {fileID: 0}
     - target: {fileID: 64521894603051554, guid: b7e885e4733c9b745ac523e8d84d7d4e,
         type: 3}
       propertyPath: m_RootOrder
@@ -75920,6 +76037,11 @@ PrefabInstance:
       propertyPath: Types.Array.data[15]
       value: Broken Bone
       objectReference: {fileID: 0}
+    - target: {fileID: 5083816021164121044, guid: 5325c0d607a4ae247b04e61858dac757,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2441852030
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5325c0d607a4ae247b04e61858dac757, type: 3}
 --- !u!4 &7944198595671080752 stripped
@@ -75947,6 +76069,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1494754218}
     m_Modifications:
+    - target: {fileID: 3602890168083387356, guid: d080d22586fa74449900a08f60af3b34,
+        type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3434568028
+      objectReference: {fileID: 0}
     - target: {fileID: 4787947027564443976, guid: d080d22586fa74449900a08f60af3b34,
         type: 3}
       propertyPath: m_Name

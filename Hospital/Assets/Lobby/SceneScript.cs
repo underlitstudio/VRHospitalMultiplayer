@@ -1,4 +1,4 @@
-using Mirror;
+using Unity.Netcode;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -10,7 +10,7 @@ namespace QuickStart
         public Text canvasStatusText;
   
 
-        [SyncVar(hook = nameof(OnStatusTextChanged))]
+       // [SyncVar(hook = nameof(OnStatusTextChanged))]
         public string statusText;
         public SceneReference sceneReference;
         void OnStatusTextChanged(string _Old, string _New)
@@ -22,9 +22,9 @@ namespace QuickStart
      
         public void ButtonChangeScene()
         {
-            if (!isServer) return;
+            if (!IsServer) return;
             var scene = SceneManager.GetActiveScene();
-            NetworkManager.singleton.ServerChangeScene(scene.name == "Lobby1 1" ? "test" : "Lobby1 1");
+            NetworkManager.Singleton.SceneManager.LoadScene("soloPlayer" , LoadSceneMode.Single);
         }
     }
 }
